@@ -1,0 +1,91 @@
+.land{
+    width:100%;
+}
+
+
+.desc{
+    width: 70%;
+    color: #ffffff;
+    height:550px;
+    /* background: url("https://innovationorigins.com/app/uploads/2018/10/20130523_180620-1-scaled.jpg");
+    background-size: cover; */
+    display: block;
+    margin: auto;
+}
+
+.DefaultLocation{
+    width: 40%;
+    display: block;
+    margin: auto;
+    border: black 1px solid;
+    border-radius: 21px;
+    background-image: linear-gradient(red,yellow);
+    color: black;
+
+}
+
+.desc>img{
+    width: 10%;
+    background: transparent;
+}
+
+.search{
+width: 100%;
+display: block;
+margin: auto
+}
+
+.search>input{
+    width: 60%;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 24px;
+    border:blue;
+    display: block;
+    margin: auto;
+}
+.search>h2{
+    color: white;
+
+}
+.search>button{
+padding: 10px;
+background-image: linear-gradient(to right, orange,red);
+border:none;
+width: 15%;
+margin-top:5px;
+}
+
+.results{
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.sr{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fr{
+    width: 40%;
+}
+
+.sr>div{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: linear-gradient(to right, orange,red);
+
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+.sr>div>button{
+    background-image: linear-gradient(black,blue);
+    color: #ffffff;
+    border: none;
+}
