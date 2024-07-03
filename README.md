@@ -3,8 +3,11 @@ Weather is a website where we can check weather details of any locataion we want
 
 # Tech Stacks used
 React
+
 Styled Components
+
 AOS
+
 axios
 
 # Installation & Usage
